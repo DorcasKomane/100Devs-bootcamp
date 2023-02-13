@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: #dddddd;
+    border: 1px solid #969696;
+}
+
+.header, .footer {
+    height: 100px;
+    clear: both;
+} 
+
+.mid-row-01, .mid-row-03, .mid-row-04 {
+    height: 1000px;
+    float: left;
+    width:20%
+}
+
+.mid-row-02 {
+    height: 1000px;
+    float: left;
+    width: 40%;
+}
