@@ -55,12 +55,6 @@ nav {
     /* outline: 1px solid red; */
 }
 
-
-
-
-
-
-
 nav input[type="text"] {
     padding: 10px 50px 10px 10px;
     font-size: 14px;
@@ -70,3 +64,98 @@ nav input[type="text"] {
     color: #ffffff;
     /* float: left; */
 }
+
+/* START HERO SECTION */
+.hero-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* align-items: left; */
+}
+.headings .headings-left {
+    float: left;
+    width: 50%;
+    height: 40px;
+    outline: 1px solid red;
+}
+.headings .headings-right {
+    float: left;
+    width: 50%;
+    height: 40px;
+    text-align: right;
+    outline: 1px solid red;
+}
+
+.hero-main-left {
+    clear: both;
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    position: relative;
+    outline: 1px solid red;
+}
+
+.hero-main-left-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-main-right  {
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    outline: 1px solid red;
+}
+.hero-main-right .top-left {
+    float: left;
+    width: 50%;
+    height: 200px;
+    position: relative;
+}
+
+.hero-main-right .top-left .top-left-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hero-main-right .top-right {
+    float: left;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    outline: 1px solid red;
+}
+
+.hero-main-right .top-right .top-right-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-main-right .bottom-left {
+    clear: both;
+    float: left;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    outline: 1px solid red;
+}
+.hero-main-right .bottom-left .bottom-left-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-main-right .bottom-right {
+    float: left;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    outline: 1px solid red;
+}
+.hero-main-right .bottom-right .bottom-right-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* END HERO SECTION */
