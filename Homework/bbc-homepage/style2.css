@@ -94,6 +94,7 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/z7vg8Mf/bbc-main-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10px;
     outline: 1px solid red;
 }
 
@@ -101,12 +102,15 @@ nav input[type="text"] {
     position: absolute;
     bottom: 0;
     left: 0;
+    color: #fff;
+    padding: 10px;
 }
 
 .hero-main-right  {
     float: left;
     width: 50%;
     min-height: 400px;
+    padding: 10px;
     outline: 1px solid red;
 }
 .hero-main-right .top-left {
@@ -117,12 +121,15 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/9rZpmm1/hero-img-madona.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0 10px 5px 0px; 
 }
 
 .hero-main-right .top-left .top-left-content {
     position: absolute;
     bottom: 0;
     left: 0;
+    color: #fff;
+    padding: 10px;
 }
 .hero-main-right .top-right {
     float: left;
@@ -139,6 +146,8 @@ nav input[type="text"] {
     position: absolute;
     bottom: 0;
     left: 0;
+    color: #fff;
+    padding: 10px;
 }
 
 .hero-main-right .bottom-left {
@@ -168,12 +177,15 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/LJ5wtjF/hero-img4.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 5px 0 0 10px;
     outline: 1px solid red;
 }
 .hero-main-right .bottom-right .bottom-right-content {
     position: absolute;
     bottom: 0;
     left: 0;
+    color: #fff;
+    padding: 10px;
 }
 
 .hero-main span i {
@@ -181,8 +193,17 @@ nav input[type="text"] {
     margin-top: 20px;
 }
 
-.hero-main-right .sub-title {
+.hero-main h3, h5 {
+    font-weight: normal;
+}
+
+/* .hero-main span {
+    color: white;
+    padding-left: 10px;
+} */
+
+/* .hero-main-right .sub-title {
     color: #fff;
     padding: 10px;
-}
+} */
 /* END HERO SECTION */
