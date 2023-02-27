@@ -5,29 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>BBC Homepage</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="https://i.ibb.co/wSrvqRM/bbc-logo.png" alt="bbc-logo" width="500" border="0">
-            <img src="https://i.ibb.co/DCvxbR3/user-img.png" alt="sign-in-image" border="0">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>News</a></li>
-                <li><a>Sport</a></li>
-                <li><a>Reel</a></li>
-                <li><a>Worklife</a></li>
-                <li><a>Travel</a></li>
-                <li><a>Future</a></li>
-                <li><a>Culture</a></li>
-                <li><a>More</a></li>
-            </ul>
-            <form>
-                <input type="text" name="search" id="search" placeholder="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
-        </nav>
+        <div class="header-container">
+            <nav>
+                <a href="#"><img class="logo" src="https://i.ibb.co/VCk5Mq9/bbc-logo-white.png" alt="bbc-logo-white" border="0"></a>
+                <a href="#"><img class="user-profile" src="https://i.ibb.co/DCvxbR3/user-img.png" alt="user-img" border="0"></a>
+                <a href="#" class="sign-in-text">Sign in</a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Reel</a></li>
+                    <li><a href="#">Worklife</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Future</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+                <form>
+                    <input type="text" name="search" id="search" placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </nav>
+        </div>
     </header>
 </body>
 </html>
