@@ -91,6 +91,9 @@ nav input[type="text"] {
     width: 50%;
     min-height: 400px;
     position: relative;
+    background-image: url("https://i.ibb.co/z7vg8Mf/bbc-main-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     outline: 1px solid red;
 }
 
@@ -111,6 +114,9 @@ nav input[type="text"] {
     width: 50%;
     height: 200px;
     position: relative;
+    background-image: url("https://i.ibb.co/9rZpmm1/hero-img-madona.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-main-right .top-left .top-left-content {
@@ -123,6 +129,9 @@ nav input[type="text"] {
     width: 50%;
     height: 200px;
     position: relative;
+    background-image: url("https://i.ibb.co/cJQ0H1Q/hero-img-gilbert.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     outline: 1px solid red;
 }
 
@@ -138,12 +147,17 @@ nav input[type="text"] {
     width: 50%;
     height: 200px;
     position: relative;
+    background-image: url("https://i.ibb.co/BZGzHjZ/hero-img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     outline: 1px solid red;
 }
 .hero-main-right .bottom-left .bottom-left-content {
     position: absolute;
     bottom: 0;
     left: 0;
+    color: #fff;
+    padding: 10px;
 }
 
 .hero-main-right .bottom-right {
@@ -151,11 +165,24 @@ nav input[type="text"] {
     width: 50%;
     height: 200px;
     position: relative;
+    background-image: url("https://i.ibb.co/LJ5wtjF/hero-img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     outline: 1px solid red;
 }
 .hero-main-right .bottom-right .bottom-right-content {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.hero-main span i {
+    transform: rotate(90deg);
+    margin-top: 20px;
+}
+
+.hero-main-right .sub-title {
+    color: #fff;
+    padding: 10px;
 }
 /* END HERO SECTION */
