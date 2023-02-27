@@ -7,52 +7,59 @@
 
 .header-container {
     background: #000000;
-       
+    height: 60px;
 }
 
 nav {
     max-width: 1400px;
-    display: flex;
     align-items: center;
-    justify-content: space-around;
     margin: 0 auto;
     height: 60px;
-}
-
-.nav-links {
-    display: flex;
-}
+    text-align: center;
+} 
 
 .logo {
     width: 112px;
-    padding: 10px 0; 
+    padding: 15px 20px 15px 10px; 
+    float: left; 
 }
 
 .user-profile {
-    /* outline: 1px solid red; */
+    float: left;
+    padding: 5px 20px 10px 0px; 
 }
-
+.sign-in-text {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: .3px;
+    vertical-align: middle;
+    float: left;
+}
 .nav-links {
     list-style: none;
+    float: left;
     /* outline: 1px solid red; */
 }
-
+.nav-links li {
+    float: left;
+    
+}
 .nav-links li a {
     text-decoration: none;
     font-size: 14px;
     color: #ffffff;
     letter-spacing: .3px;
     padding: 20px;
-    border-left: .2px solid white;
+    /* border-left: .2px solid white; */
     /* outline: 1px solid red; */
 }
 
-.sign-in-text {
-    text-decoration: none;
-    font-size: 14px;
-    color: #ffffff;
-    letter-spacing: .3px;
-}
+
+
+
+
+
 
 nav input[type="text"] {
     padding: 10px 50px 10px 10px;
@@ -61,6 +68,5 @@ nav input[type="text"] {
     border: none;
     outline: none;
     color: #ffffff;
+    /* float: left; */
 }
-
-
