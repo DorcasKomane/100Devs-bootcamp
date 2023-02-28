@@ -63,4 +63,144 @@ nav input[type="text"] {
     color: #ffffff;
 }
 
+/* START HERO SECTION */
+
+.hero-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+ .headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid red;
+}
+
+.headings .headings-left {
+    color: #646464;
+}
+
+.headings .headings-right {
+    color: #929292;
+    font-size: 22px;
+}
+
+.hero-container .hero-main {
+    display: flex;
+    margin-top: 10px;
+    outline: 1px solid red;
+}
+
+.hero-main .hero-main-left {
+    min-width: 50%;
+    min-height: 400px;
+    position: relative;
+    color: #fff;
+    background-image: url("https://i.ibb.co/z7vg8Mf/bbc-main-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    outline: 1px solid red;
+}
+
+.hero-main .hero-main-left .hero-main-left-content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hero-main .hero-main-right {
+    min-width: 50%;
+    min-height: 400px;
+    outline: 1px solid red;
+}
+
+.hero-main .hero-main-right .top-row {
+    display: flex;
+}
+
+.hero-main .hero-main-right .bottom-row {
+    display: flex;
+}
+
+.hero-main .hero-main-right .top-left{
+    position: relative;
+    width: 50%;
+    min-height: 200px;
+    background-image: url("https://i.ibb.co/9rZpmm1/hero-img-madona.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: 1px solid blue;
+}
+
+.hero-main .hero-main-right .top-left .top-left-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hero-main .hero-main-right .top-right{
+    position: relative;
+    width: 50%;
+    min-height: 200px;
+    background-image: url("https://i.ibb.co/cJQ0H1Q/hero-img-gilbert.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: 1px solid blue;
+}
+
+.hero-main .hero-main-right .top-right .top-right-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hero-main .hero-main-right .bottom-left{
+    position: relative;
+    width: 50%;
+    min-height: 200px;
+    background-image: url("https://i.ibb.co/BZGzHjZ/hero-img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: 1px solid blue;
+}
+
+.hero-main .hero-main-right .bottom-left .bottom-left-content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hero-main .hero-main-right .bottom-right{
+    position: relative;
+    width: 50%;
+    min-height: 200px;
+    background-image: url("https://i.ibb.co/LJ5wtjF/hero-img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 0 0 10px;
+    outline: 1px solid blue;
+}
+
+.hero-main .hero-main-right .bottom-right .bottom-right-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.hero-main span i {
+    transform: rotate(90deg);
+    margin-top: 20px;
+}
+
+.hero-main h3, h5 {
+    font-weight: normal;
+}
+
+
+
+
 
