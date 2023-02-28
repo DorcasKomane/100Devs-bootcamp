@@ -89,12 +89,12 @@ nav input[type="text"] {
 .hero-container .hero-main {
     display: flex;
     margin-top: 10px;
-    justify-content: space-between;
+    gap: 10px;
     /* outline: 1px solid red; */
 }
 
 .hero-main .hero-main-left {
-    min-width: 50%;
+    min-width: 49.5%;
     min-height: 400px;
     position: relative;
     color: #fff;
@@ -112,18 +112,26 @@ nav input[type="text"] {
     padding: 15px;
 }
 
+.hero-main .hero-main-left .hero-main-left-content p {
+    padding-top: 10px;
+}
+
 .hero-main .hero-main-right {
-    min-width: 50%;
+    min-width: 49.5%;
     min-height: 400px;
     /* outline: 1px solid red; */
 }
 
 .hero-main .hero-main-right .top-row {
     display: flex;
+    gap: 10px;
+    padding-bottom: 5px;
 }
 
 .hero-main .hero-main-right .bottom-row {
     display: flex;
+    gap: 10px;
+    padding-top: 5px;
 }
 
 .hero-main .hero-main-right .top-left{
@@ -215,7 +223,6 @@ nav input[type="text"] {
 .hero-main h3, h5 {
     font-weight: normal;
 }
-
 
 
 
