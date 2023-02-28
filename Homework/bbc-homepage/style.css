@@ -6,8 +6,7 @@
 }
 
 .header-container {
-    background: #000000;
-       
+    background: #000000;    
 }
 
 nav {
@@ -75,7 +74,7 @@ nav input[type="text"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .headings .headings-left {
@@ -90,7 +89,8 @@ nav input[type="text"] {
 .hero-container .hero-main {
     display: flex;
     margin-top: 10px;
-    outline: 1px solid red;
+    justify-content: space-between;
+    /* outline: 1px solid red; */
 }
 
 .hero-main .hero-main-left {
@@ -101,20 +101,21 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/z7vg8Mf/bbc-main-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
-    outline: 1px solid red;
+    padding-right: 10px;
+    /* outline: 1px solid red; */
 }
 
 .hero-main .hero-main-left .hero-main-left-content{
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 15px;
 }
 
 .hero-main .hero-main-right {
     min-width: 50%;
     min-height: 400px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .hero-main .hero-main-right .top-row {
@@ -132,13 +133,15 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/9rZpmm1/hero-img-madona.png");
     background-repeat: no-repeat;
     background-size: cover;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .hero-main .hero-main-right .top-left .top-left-content {
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 15px;
+    color: #fff;
 }
 
 .hero-main .hero-main-right .top-right{
@@ -148,13 +151,15 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/cJQ0H1Q/hero-img-gilbert.png");
     background-repeat: no-repeat;
     background-size: cover;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .hero-main .hero-main-right .top-right .top-right-content {
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 15px;
+    color: #fff;
 }
 
 .hero-main .hero-main-right .bottom-left{
@@ -164,13 +169,15 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/BZGzHjZ/hero-img3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .hero-main .hero-main-right .bottom-left .bottom-left-content{
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 15px;
+    color: #fff;
 }
 
 .hero-main .hero-main-right .bottom-right{
@@ -181,19 +188,28 @@ nav input[type="text"] {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5px 0 0 10px;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .hero-main .hero-main-right .bottom-right .bottom-right-content {
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 15px;
+    color: #fff;
 }
 
 
 .hero-main span i {
     transform: rotate(90deg);
     margin-top: 20px;
+    color: aqua;
+}
+
+.hero-main .hero-main-left  span i {
+    transform: rotate(90deg);
+    margin-top: 20px;
+    color: red;
 }
 
 .hero-main h3, h5 {
