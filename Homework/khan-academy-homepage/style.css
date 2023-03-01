@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* START HERO SECTION */
+.nav-container {
+    justify-content: center;
+    border-bottom: 1px solid rgb(201, 200, 200);
+}
+
+nav {
+    max-width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Helvetica', Arial, Helvetica, sans-serif;
+}
+
+nav .nav-left, .nav-middle, .nav-right {
+    flex: 1;
+    outline: 1px solid red;
+}
+
+nav .nav-left, .nav-right > ul {
+    display: flex;
+    
+}
+
+nav .nav-right > ul {
+    list-style: none;
+    justify-content: flex-end;
+}
+
+nav .nav-right ul li a {
+    text-decoration: none;
+    padding-left: 40px; 
+    color: #1865f2;
+    font-weight: bold;
+}
+
+nav span, i {
+    color: #1865f2;
+    font-weight: bold;
+}
+
+nav span {
+    padding-right: 8px;
+}
+
+nav i {
+    padding-right: 30px;
+}
+
+nav .nav-left input {
+    padding: 10px;
+    border: none;
+    background: #e5e7e4;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #1865f2;
+    outline: none;
+}
+
+nav .nav-left input::placeholder {
+    color: #1865f2;
+    font-weight: bold;
+}
+
+nav .nav-left { 
+    padding: 10px 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .nav-right {
+    padding: 20px;
+    
+}
+
+nav .nav-middle img {
+    align-self: center;
+    margin: 0 140px;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+/* END HERO SECTION */
+
+/* START HERO SECTION */
+.hero-container {
+    justify-content: center;
+}
+
+.hero-section {
+    max-width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid red;
+}
+
+.hero-section h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 36px;
+    color: #21242c;
+}
+
+
+
+/* END HERO SECTION */

@@ -75,14 +75,12 @@ nav input[type="text"] {
     float: left;
     width: 50%;
     height: 40px;
-    outline: 1px solid red;
 }
 .headings .headings-right {
     float: left;
     width: 50%;
     height: 40px;
     text-align: right;
-    outline: 1px solid red;
 }
 
 .hero-main-left {
@@ -95,7 +93,6 @@ nav input[type="text"] {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
-    outline: 1px solid red;
 }
 
 .hero-main-left-content {
@@ -110,8 +107,7 @@ nav input[type="text"] {
     float: left;
     width: 50%;
     min-height: 400px;
-    padding: 10px;
-    outline: 1px solid red;
+    /* padding: 10px; */
 }
 .hero-main-right .top-left {
     float: left;
@@ -139,7 +135,6 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/cJQ0H1Q/hero-img-gilbert.png");
     background-repeat: no-repeat;
     background-size: cover;
-    outline: 1px solid red;
 }
 
 .hero-main-right .top-right .top-right-content {
@@ -159,7 +154,6 @@ nav input[type="text"] {
     background-image: url("https://i.ibb.co/BZGzHjZ/hero-img3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    outline: 1px solid red;
 }
 .hero-main-right .bottom-left .bottom-left-content {
     position: absolute;
@@ -178,7 +172,6 @@ nav input[type="text"] {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5px 0 0 10px;
-    outline: 1px solid red;
 }
 .hero-main-right .bottom-right .bottom-right-content {
     position: absolute;
