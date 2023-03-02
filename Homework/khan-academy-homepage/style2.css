@@ -13,25 +13,36 @@
 
 nav {
     max-width: 1280px;
-    display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    /* padding: 20px; */
     align-items: center;
     font-family:'Helvetica', Arial, Helvetica, sans-serif;
+    height: 65px;
 }
 
-nav .nav-left, .nav-middle, .nav-right {
-    flex: 1;
+nav .nav-left {
+    float: left;
+    width: 400px;
+    margin-top: 10px;
 }
 
-nav .nav-left, .nav-right > ul {
-    display: flex;
-    
+nav .nav-middle {
+    float: left;
+    width: 400px;
+    margin-top: 10px;
+}
+
+nav .nav-right {
+    float: left;
+    width: 400px;
 }
 
 nav .nav-right > ul {
     list-style: none;
-    justify-content: flex-end;
+}
+
+nav .nav-right ul li {
+    float: left;  
 }
 
 nav .nav-right ul li a {
@@ -44,17 +55,17 @@ nav .nav-right ul li a {
 nav span, i {
     color: #1865f2;
     font-weight: bold;
+    padding: 10px;
 }
 
 nav span {
-    padding-right: 8px;
-}
+    float: left;
+    padding: 10px 8px 0 20px;
 
-nav i {
-    padding-right: 30px;
 }
 
 nav .nav-left input {
+    float: left;
     padding: 10px;
     border: none;
     background: #e5e7e4;
@@ -64,20 +75,18 @@ nav .nav-left input {
     outline: none;
 }
 
+nav i {
+    float: left;
+    padding-right: 30px;
+}
+
 nav .nav-left input::placeholder {
     color: #1865f2;
     font-weight: bold;
 }
 
-nav .nav-left { 
-    padding: 10px 20px;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 nav .nav-right {
-    padding: 20px;
-    
+    padding: 20px; 
 }
 
 nav .nav-middle img {
@@ -88,23 +97,21 @@ nav .nav-middle img {
 
 /* END HERO SECTION */
 
-/* START HERO SECTION */
 .hero-container {
     justify-content: center;
 }
 
 .hero-section {
+    clear: both;
     max-width: 1280px;
-    display: flex;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+    padding-top: 30px;
+    /* align-items: center; */
 }
 
 .hero-section .hero-left {
-    /* outline: 1px solid red; */
     padding: 20px;
-    
+    float: left;
 }
 
 .hero-section .hero-left img {
@@ -132,13 +139,28 @@ nav .nav-middle img {
 
 .hero-section .hero-right ul {
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     padding-top: 20px;
 }
 
 .hero-section .hero-right ul li {
     max-width: 100%;
+    float: left;
+    padding-right: 10px;
+    /* outline: 1px solid red; */
+}
+
+.hero-section .hero-right ul li {
+    max-width: 100%;
+    float: left;
+    padding-right: 10px;
+    /* outline: 1px solid red; */
+}
+
+.hero-section .hero-right ul li a {
+    text-decoration: none;
+    color: #ffffff;
     /* outline: 1px solid red; */
 }
 
@@ -149,6 +171,9 @@ nav .nav-middle img {
     background: #1865f2;
     border: 1px solid #1865f2;
     border-radius: 5px;
+}
+.hero-section .hero-right button:hover {
+    outline: 1px solid #1865f2;
 }
 
 /* END HERO SECTION */
