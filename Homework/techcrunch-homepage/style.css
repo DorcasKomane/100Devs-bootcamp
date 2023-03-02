@@ -84,6 +84,15 @@ form {
 
 .top-section .hero-section h4 {
     margin: 20px 0 10px 0;
+    color: #777777;
+}
+
+.top-section .hero-section h4:hover {
+    color: #00a562;
+}
+
+.top-section .hero-section a {
+    text-decoration: none;
 }
 
 /* END HERO SECTION */
@@ -105,12 +114,29 @@ form {
 .top-section .right-section .subsection h2 {
     padding-bottom: 10px;
     font-weight: bold;
+    color: #000000;
+}
+
+.top-section .right-section .subsection h2:hover {
+    color: #777777;
 }
 
 .top-section .right-section .subsection h4 {
     padding-bottom: 10px;
     color: #777777;
     /* font-weight: normal; */
+}
+
+.top-section .right-section .subsection h4:hover {
+    color: #00a562;
+}
+
+.top-section .right-section .subsection a {
+    text-decoration: none;
+}
+
+.top-section .right-section .last {
+    border: none;
 }
 
 .top-section .right-section .subsection img {
