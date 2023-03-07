@@ -13,8 +13,12 @@
 }
 .top-section .hero-section {
     float: left;
-    width: 60%;
+    width: 50%;
 }
+.top-section .right-section {
+    /* width: 25%; */
+}
+
 .mid-section {
     clear: both;
 }
@@ -106,7 +110,61 @@ form {
 /* START RIGHT SECTION */
 .top-section .right-section {
     margin: 20px;
+    /* max-width: 360px; */
     /* outline: 1px solid red; */
 }
 
+.top-section .right-section .subsection {
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid #cacaca; */
+}
+
+.top-section .right-section .subsection h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.top-section .right-section .subsection h2:hover {
+    color: #777777;
+}
+
+.top-section .right-section .subsection h4 {
+    padding-bottom: 10px;
+    color: #777777;
+    /* font-weight: normal; */
+}
+
+.top-section .right-section .subsection h4:hover {
+    color: #00a562;
+}
+
+.top-section .right-section .subsection a {
+    text-decoration: none;
+}
+
+.top-section .right-section .last {
+    border: none;
+}
+
+.top-section .right-section .subsection img {
+    max-width: 24px;
+    padding-bottom: 5px;
+}
+
 /* END RIGHT SECTION */
+
+/* START MID SECTION */
+
+.mid-section .sub-mid-section .left {
+    float: left;
+    width: 30%;
+}
+.mid-section .sub-mid-section .middle {
+    float: left;
+    width: 30%;
+}
+.mid-section .sub-mid-section .left {
+    float: left;
+}
+/* END MID SECTION */
