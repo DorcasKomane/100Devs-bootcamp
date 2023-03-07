@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Helvetica Nueue', Helvetica, sans-serif;
 }
 
 .page-container{
@@ -170,7 +170,7 @@ form {
 
 .mid-section .sub-mid-section .sub-item {
     flex: 1;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 .mid-section .sub-mid-section .sub-item h2 {
     font-size: 26px;

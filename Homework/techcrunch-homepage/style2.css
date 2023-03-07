@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Nueue', Helvetica, sans-serif;
+}
+
+.top-section header {
+    float: left;
+    width: 15%;
+}
+.top-section .hero-section {
+    float: left;
+    width: 60%;
+}
+.mid-section {
+    clear: both;
+}
+
+
+/* START HEADER SECTION */
+
+.top-section header {
+    margin: 20px; 
+}
+
+.top-section header img {
+    width: 80px;
+}
+
+.top-section header h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #fdc006;
+ 
+}
+
+.top-section header ul {
+    list-style: none;
+}
+
+.top-section header ul li {
+    padding: 5px 0;
+}
+
+.top-section header a {
+    text-decoration: none;
+    color: #777777;
+    font-weight: light;
+    font-size: 18px; 
+}
+
+.top-section header span a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.top-section header input {
+    padding: 5px 0;
+    outline: none;
+    border: none;
+}
+
+form {
+    margin: 20px 0;
+}
+
+.top-section header input::placeholder {
+    font-size: 18px;
+}
+
+/* END HEADER SECTION */
+
+/* START HERO SECTION */
+
+.top-section .hero-section {
+    /* outline: 1px solid red; */
+    margin: 20px;
+}
+.top-section .hero-section h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 10px 0;
+}
+
+.top-section .hero-section h4 {
+    margin: 20px 0 10px 0;
+    color: #777777;
+}
+
+.top-section .hero-section h4:hover {
+    color: #00a562;
+}
+
+.top-section .hero-section a {
+    text-decoration: none;
+}
+
+/* END HERO SECTION */
+
+
+/* START RIGHT SECTION */
+.top-section .right-section {
+    margin: 20px;
+    /* outline: 1px solid red; */
+}
+
+/* END RIGHT SECTION */
