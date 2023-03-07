@@ -156,6 +156,7 @@ form {
 
 /* START MID SECTION */
 
+
 .mid-section .sub-mid-section .left {
     float: left;
     width: 30%;
@@ -167,4 +168,43 @@ form {
 .mid-section .sub-mid-section .left {
     float: left;
 }
+
+.mid-section h3 {
+    margin: 20px 0px;
+    padding: 20px 0;
+    border-bottom: 1px solid #cacaca;
+    /* outline: 1px solid blue; */
+}
+
+.mid-section .sub-mid-section .sub-item h2 {
+    font-size: 26px;
+    /* padding: 30px; */
+    font-weight: bold;
+}
+
+.mid-section .sub-mid-section .sub-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.mid-section .sub-mid-section .sub-item  h4 {
+    margin: 20px 0 10px 0;
+    color: #777777;
+}
+
+.mid-section .sub-mid-section .sub-item  h4:hover {
+    color: #00a562;
+}
+
+.sub-mid-section .sub-item img {
+    max-width: 430px;
+    align-self: center;
+}
+
+.mid-section .sub-mid-section .middle > p {
+    font-size: 18px;
+    padding: 0 20px;
+    color: #777777;
+}
+
 /* END MID SECTION */
