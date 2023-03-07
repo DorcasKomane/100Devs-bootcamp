@@ -11,7 +11,7 @@
     max-width: 1400px;
     display: flex;
     margin: 20px; 
-    /* justify-content: space-around; */
+    /* outline: 1px solid red; */
 }
 
 /* START HEADER SECTION */
