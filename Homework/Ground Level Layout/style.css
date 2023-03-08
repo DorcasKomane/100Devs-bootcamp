@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .nav-container {
     background: rgba(91, 107, 127, 1);
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -14,14 +16,34 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .5px;
     outline: 1px solid red;
 }
 
 nav .nav-left-links ul {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
 }
 
 nav .nav-left-links a {
     text-decoration: none;
     color: #ffffff;
+}
+
+nav button {
+    padding: 10px;
+    color: rgba(91, 107, 127, 1);  
+    border: 1px solid rgba(91, 107, 127, 1);
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: bold;
 }
