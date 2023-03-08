@@ -19,7 +19,6 @@ nav {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .5px;
-    outline: 1px solid red;
 }
 
 nav .nav-left-links ul {
@@ -61,6 +60,7 @@ nav button {
     font-size: 70px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    line-height: 80px;
 }
 
 .hero-container .hero-text {
@@ -82,7 +82,31 @@ nav button {
     font-weight: lighter;
     font-size: 18px;
     letter-spacing: .8px;
+    line-height: 22px;
     padding-left: 15px;
 }
 
+.why-container {
+    min-height: 400px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .5px;
+    /* font-weight: bold; */
+    padding: 100px 300px;
+    background: #fff;
+    outline: 1px solid red;
+}
 
+.why-container .why-section h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.why-container .why-section p{
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px 50px;
+    line-height: 20px;
+}
