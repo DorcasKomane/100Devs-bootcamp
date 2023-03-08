@@ -94,7 +94,7 @@ nav button {
     /* font-weight: bold; */
     padding: 100px 300px;
     background: #fff;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .why-container .why-section h2 {
@@ -109,4 +109,43 @@ nav button {
     font-size: 16px;
     padding: 20px 50px;
     line-height: 20px;
+}
+
+.two-col-container {
+    min-height: 500px;
+    background: rgba(214, 218, 222, 1);
+    text-align: center;
+}
+
+.two-col-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.two-col-section .two-column {
+    /* outline: 1px solid red; */
+}
+
+.two-col-section .two-column h3 {
+    padding: 20px 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* line-height: 50px; */
+}
+
+.two-col-section .two-column p {
+    padding: 0 20px 20px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.two-col-section .two-column button {
+    padding: 10px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: rgba(214, 218, 222, 1);
+    border: 1px solid black;
 }
