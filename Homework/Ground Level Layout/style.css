@@ -91,7 +91,6 @@ nav button {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .5px;
-    /* font-weight: bold; */
     padding: 100px 300px;
     background: #fff;
     /* outline: 1px solid red; */
@@ -133,7 +132,6 @@ nav button {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-    /* line-height: 50px; */
 }
 
 .two-col-section .two-column p {
@@ -144,8 +142,51 @@ nav button {
 
 .two-col-section .two-column button {
     padding: 15px 30px;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
     background: rgba(214, 218, 222, 1);
     border: 1px solid black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+}
+
+.bottom-container {
+    min-height: 500px;
+    background: #ffffff;
+    text-align: center;
+    outline: 1px solid red;
+}
+
+.bottom-section {
+    min-height: 400px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .5px;
+    padding: 100px 300px;
+    background: #fff;
+}
+
+.bottom-container .bottom-section h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.bottom-container .bottom-section p{
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px 50px 30px 50px;
+    line-height: 20px;
+}
+
+.bottom-container .bottom-section button {
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #ffffff;
+    letter-spacing: .5px;
+    border: 1px solid black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
 }
