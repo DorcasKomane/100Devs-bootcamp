@@ -154,7 +154,7 @@ nav button {
     min-height: 500px;
     background: #ffffff;
     text-align: center;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .bottom-section {
@@ -189,4 +189,58 @@ nav button {
     border: 1px solid black;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
+}
+
+.footer-container {
+    min-height: 250px;
+    background: rgba(22, 29, 37, 1);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 50px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.footer-top .footer-media-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 15px;
+    outline: 1px solid red;
+}
+
+.footer-top span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(91, 107, 127, 1);
+}
+
+.footer-top .site-map {
+    margin-bottom: 15px;
+}
+
+.footer-top .site-map ul, .contribute ul {
+    list-style: none;
+    padding-top: 3px;
+}
+
+.footer-top .site-map ul, .contribute ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
 }
