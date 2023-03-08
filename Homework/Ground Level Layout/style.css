@@ -7,7 +7,6 @@
 
 .nav-container {
     background: rgba(91, 107, 127, 1);
-    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -47,3 +46,5 @@ nav button {
     letter-spacing: .5px;
     font-weight: bold;
 }
+
+
