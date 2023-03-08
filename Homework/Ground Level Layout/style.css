@@ -237,6 +237,21 @@ nav button {
     justify-content: space-between;
 }
 
+.footer-top .footer-right .company {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-top .footer-right .address {
+    margin-top: 10px; 
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.footer-top .footer-right a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .footer-bottom {
     display: flex;
