@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    background: rgba(91, 107, 127, 1);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    outline: 1px solid red;
+}
+
+nav .nav-left-links ul {
+    list-style: none;
+}
+
+nav .nav-left-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
