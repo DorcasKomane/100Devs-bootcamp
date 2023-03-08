@@ -77,6 +77,10 @@ nav button {
     margin: 30px 0;
 }
 
+.hero-container .icon-play-video i {
+    font-size: 30px;
+}
+
 .hero-container .icon-play-video p {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
@@ -214,7 +218,10 @@ nav button {
     align-items: center;
     width: 150px;
     margin-bottom: 15px;
-    outline: 1px solid red;
+}
+
+.footer-top .footer-media-icons i {
+    font-size: 30px;
 }
 
 .footer-top span {
