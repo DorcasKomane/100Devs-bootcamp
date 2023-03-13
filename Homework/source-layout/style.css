@@ -138,12 +138,18 @@ nav .nav-button a {
 }
 
 .hero-section-container .right-section  img {
-    /* min-width: 500px; */
+    max-width: 600px;
     align-self: right;
+}
+/* END HERO SECTION */
+
+/* START FEATURES SECTION */
+.hero-section-container {
+    clear: both;
+    background: rgba(243, 248, 252, 1);
+    overflow: auto;
+    width: 100%;
 }
 
 
-/* END HERO SECTION */
-
-
-
+/* END FEATURES SECTION */
