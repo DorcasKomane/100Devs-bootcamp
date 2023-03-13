@@ -53,7 +53,52 @@ nav ul li a{
 nav .nav-button {
     float: right;
     width: 10%;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
+    background: rgba(42, 61, 79, 1);
+    font-size: 1.6rem;
+    border: 1px solid rgba(42, 61, 79, 1);
+    outline: none;
+}
+
+nav .nav-button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+/* END HEADER SECTION */
+
+/* START HERO SECTION */
+
+.hero-section-container {
+    clear: both;
+    background: rgba(243, 248, 252, 1);
+    overflow: auto;
+    width: 100%;
+}
+
+.hero-section-container {
+    padding: 5rem 0 5rem 12rem;
+}
+
+.hero-section-container .left-section {
+    float: left;
+    width: 50%;
+    outline: 1px solid red;
+}
+
+.hero-section-container .left-section span {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.hero-section-container .left-section h1 {
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+
+.hero-section-container .left-section button {
+    padding: 1rem 2rem;
     background: rgba(42, 61, 79, 1);
     font-size: 1.6rem;
     color: #fff;
@@ -61,10 +106,20 @@ nav .nav-button {
     outline: none;
 }
 
-/* END HEADER SECTION */
-
-hero-section-container {
-    clear: both;
+.hero-section-container .left-section button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
 }
+
+.hero-section-container .right-section {
+    float: right;
+    width: 50%;
+    outline: 1px solid red;
+}
+
+
+/* END HERO SECTION */
+
 
 
