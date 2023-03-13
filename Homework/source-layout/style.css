@@ -138,18 +138,64 @@ nav .nav-button a {
 }
 
 .hero-section-container .right-section  img {
-    max-width: 600px;
+    max-width: 500px;
     align-self: right;
 }
 /* END HERO SECTION */
 
 /* START FEATURES SECTION */
-.hero-section-container {
+.feature-section-container {
     clear: both;
     background: rgba(243, 248, 252, 1);
     overflow: auto;
     width: 100%;
+    font-size: 1.6rem;
+    padding: 5rem;
 }
+
+
+.feature-section-container .features i {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.feature-section-container .features p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.feature-section-container .features h3 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.feature-section-container .features a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.feature-section-container .features span .right-angle {
+    font-size: 1.6rem;
+}
+
+.feature-section-container .feature {
+    float: left;
+    width: 25%;
+    padding-right: 2rem;
+}
+
+.feature-section-container .feature:nth-child(4) {
+    padding-right: 0;
+}
+
+.feature-section-container .features span > i {
+    font-size: 1rem;
+    font-weight: bold;
+    /* outline: 1px solid red; */
+}
+
 
 
 /* END FEATURES SECTION */
