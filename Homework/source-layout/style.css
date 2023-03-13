@@ -84,7 +84,7 @@ nav .nav-button a {
 .hero-section-container .left-section {
     float: left;
     width: 50%;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .hero-section-container .left-section span {
@@ -134,12 +134,12 @@ nav .nav-button a {
 .hero-section-container .right-section {
     float: right;
     width: 50%;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .hero-section-container .right-section  img {
     max-width: 500px;
-    align-self: right;
+    /* align-self: right; */
 }
 /* END HERO SECTION */
 
@@ -196,6 +196,87 @@ nav .nav-button a {
     /* outline: 1px solid red; */
 }
 
-
-
 /* END FEATURES SECTION */
+
+
+/* START COLLECTION SECTION */
+
+.collection-section-container {
+    background: #fff;
+}
+
+.collecting-section {
+    padding: 5rem;
+    width: 50%;
+}
+
+.collecting-section h2{
+    font-size: 4rem;
+}
+
+.collecting-section p{
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    line-height: 2.2rem;
+    color:rgb(177, 196, 211);
+}
+/* END COLLECTION SECTION */
+
+/* MEDIA QUERIES */
+@media all and (max-width: 758px) {
+    nav ul, nav button {
+        display: none;
+    }
+
+    nav .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-section-container {
+        padding: 0 2rem;
+    }
+
+    .hero-section-container .left-section,  .hero-section-container .right-section{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-section-container .right-section img {
+        width: 100%;
+        align-self: center;
+        min-width: 600px;
+        padding-top: 2rem;
+    }
+
+    .hero-section-container .left-section input {
+        width: 100%;
+    }
+
+    .hero-section-container .left-section button {
+        width: 100%;
+        margin-top: 2rem;
+    }
+  
+    .hero-section-container .left-section p {
+        font-size: 2rem;
+        padding-top: 3rem;
+        width: 100%;
+    }
+
+    .feature-section-container {
+        padding: 5rem 2rem;
+    }
+
+    .feature-section-container .feature {
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+
+    .collecting-section {
+        padding: 5rem 2rem;
+        width: 100%;
+    }
+
+}
