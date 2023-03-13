@@ -90,6 +90,7 @@ nav .nav-button a {
 .hero-section-container .left-section span {
     font-size: 1.6rem;
     text-transform: uppercase;
+    color:rgb(177, 196, 211);
 }
 
 .hero-section-container .left-section h1 {
@@ -112,10 +113,33 @@ nav .nav-button a {
     font-size: 1.6rem;
 }
 
+.hero-section-container .left-section input {
+    padding: 1rem;
+    border: none;
+    height: 4rem;
+    width: 50%;
+    background:rgba(221, 230, 238, 1);
+}
+
+.hero-section-container .left-section input::placeholder {
+    color:rgb(177, 196, 211);
+}
+
+.hero-section-container .left-section p {
+    font-size: 2rem;
+    padding-top: 2rem;
+    width: 60%;
+}
+
 .hero-section-container .right-section {
     float: right;
     width: 50%;
     outline: 1px solid red;
+}
+
+.hero-section-container .right-section  img {
+    /* min-width: 500px; */
+    align-self: right;
 }
 
 
