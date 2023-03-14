@@ -194,6 +194,7 @@ nav .nav-button a, .nav-mobile a {
 .hero-section-container .right-section {
     float: right;
     width: 50%;
+    padding: 5rem 0;
 }
 
 .hero-section-container .right-section  img {
