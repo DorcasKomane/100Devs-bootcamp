@@ -81,6 +81,7 @@ nav .nav-button a {
 }
 
 .open .line1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
 }
 
@@ -89,7 +90,8 @@ nav .nav-button a {
 }
 
 .open .line3 {
-    transform: rotate(45deg) translate(-6px, 6px);
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
 }
 
 .open .nav-mobile {

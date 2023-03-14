@@ -1,3 +1,3 @@
 function toggleNavMobile(menu){
-    menubar.classList.toggle('open');
+    menu.classList.toggle('open');
 }
