@@ -137,12 +137,13 @@ nav .nav-button a, .nav-mobile a {
 }
 
 .hero-section-container {
-    padding: 5rem 0 5rem 12rem;
+    /* padding: 5rem 0 5rem 12rem; */
 }
 
 .hero-section-container .left-section {
     float: left;
     width: 50%;
+    padding: 5rem 0 5rem 12rem;
     /* outline: 1px solid red; */
 }
 
@@ -193,14 +194,10 @@ nav .nav-button a, .nav-mobile a {
 .hero-section-container .right-section {
     float: right;
     width: 50%;
-    background-image: url("https://i.ibb.co/CnhYggx/source-img.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    outline: 1px solid red;
 }
 
 .hero-section-container .right-section  img {
-    width: 600px;
+    width: 100%;
 }
 /* END HERO SECTION */
 
@@ -305,11 +302,17 @@ nav .nav-button a, .nav-mobile a {
         padding-left: 0;
     }
 
-    .hero-section-container {
+    /* .hero-section-container {
+        padding: 4rem 2rem 0 2rem;
+    } */
+
+    .hero-section-container .left-section {
+        float: none;
+        width: 100%;
         padding: 4rem 2rem 0 2rem;
     }
 
-    .hero-section-container .left-section,  .hero-section-container .right-section{
+   .hero-section-container .right-section{
         float: none;
         width: 100%;
         padding: 0;
@@ -317,8 +320,6 @@ nav .nav-button a, .nav-mobile a {
 
     .hero-section-container .right-section img {
         width: 100%;
-        align-self: center;
-        min-width: 600px;
         padding-top: 4rem;
     }
 
