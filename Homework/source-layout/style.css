@@ -39,15 +39,25 @@ nav ul {
     /* outline: 1px solid red; */
 }
 
-nav ul li {
+nav ul li, .nav-mobile ul li {
     float: left;
     width: 20%;
     text-decoration: none;
     font-size: 1.6rem;
 }
 
-nav ul li a{
+nav ul li a, .nav-mobile ul li a{
     text-decoration: none;
+}
+
+.nav-mobile {
+    padding: 2rem;
+}
+
+.nav-mobile button {
+    padding: 1rem 2rem;
+    background: rgb(177, 196, 211);
+    border: 1px solid rgb(177, 196, 211);   
 }
 
 nav .nav-button {
@@ -60,7 +70,7 @@ nav .nav-button {
     outline: none;
 }
 
-nav .nav-button a {
+nav .nav-button a, .nav-mobile a {
     color: #fff;
     text-decoration: none;
     font-size: 1.6rem;
@@ -97,7 +107,7 @@ nav .nav-button a {
 .open .nav-mobile {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -108,10 +118,11 @@ nav .nav-button a {
     left: 0;
     height: calc(100vh-7rem);
     width: 100%;
+    background: rgba(42, 61, 79, 1);
 }
 
 .nav-mobile li {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* END HEADER SECTION */
