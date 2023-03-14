@@ -11,17 +11,31 @@
     </head>
     <body>
         <header>
-            <nav>
+            <div class="nav-container">
                 <span class="logo">Source</span>
-                <ul>
+                <nav>
+                    <ul>
+                        <li><a href="#">First Link</a></li>
+                        <li><a href="#">Second Link</a></li>
+                        <li><a href="#">Third Link</a></li>
+                        <li><a href="#">Fourth Link</a></li>
+                    </ul>
+                    <button class="nav-button"><a href="#">Button</a></button>
+                </nav>
+            </div>
+            <div class="hamburger" onclick="toggleNavMobile(this)">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            
+                <ul class="nav-mobile">
                     <li><a href="#">First Link</a></li>
                     <li><a href="#">Second Link</a></li>
                     <li><a href="#">Third Link</a></li>
                     <li><a href="#">Fourth Link</a></li>
+                    <li><button class="nav-button"><a href="#">Button</a></button></li>
                 </ul>
-                <button class="nav-button"><a href="#">Button</a></button>
-            </nav>
-    
+            </div>
         </header>
         <div class="hero-section-container">
             <section class="left-section">
@@ -33,7 +47,7 @@
                 <p>A device that enables collaboration will lessen the chance of work having to be completely redone.</p>
             </section>
             <section class="right-section">
-                <img src="https://i.ibb.co/CnhYggx/source-img.png" alt="source-img" width="600" border="0">
+                <!--<img src="https://i.ibb.co/CnhYggx/source-img.png" alt="source-img">-->
             </section>
         </div>
         <div class="feature-section-container">
@@ -74,5 +88,6 @@
                 <p>In the context of information architecture, information is separate from both knowledge and data, and lies nebulously between them.</p>
             </section>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
