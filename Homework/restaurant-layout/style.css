@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+/* START HEADER SECTION */
 .container {
     background: linear-gradient(90deg, rgba(221, 231, 237, 1), rgba(242, 249, 249, 1));
     /* width: 100%; */
@@ -49,10 +49,17 @@ nav {
     font-size: 14px;
 }
 
-
 nav > i {
     float: right;
     width: 50px;
     text-align: center;
     font-size: 20px;
 }
+
+/* END HEADER SECTION */
+
+
+/* START HERO SECTION */
+
+
+/* END HERO SECTION */
