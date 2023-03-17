@@ -220,10 +220,16 @@ nav > i {
     border-bottom: 1px solid #ebebeb;
 }
 
+.meals ul li:nth-child(1) {
+    color:rgba(255, 125, 0, 1);
+    border-bottom: 1px solid #ff7d00;
+}
+
 .meal-images {
     clear: both;
-    margin: 50px 20px;
+    margin: 50px 20px 50px 250px;
     /* width: 1000px; */
+    /* outline: 1px solid red; */
 }
 
 .meal-images img {
@@ -231,6 +237,7 @@ nav > i {
     height: 233px;
     width: 185px;
     gap: 20px;
+    padding: 10px;
 }
 
 
