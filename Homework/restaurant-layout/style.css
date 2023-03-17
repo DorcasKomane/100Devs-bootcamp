@@ -6,9 +6,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+.wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+}
 /* START HEADER SECTION */
 .container {
-    max-width: 1240;
     background: linear-gradient(90deg, rgba(227, 238, 243, 1), rgba(242, 249, 249)); 
 }
 
@@ -61,7 +65,8 @@ nav > i {
     background-image: url("https://i.ibb.co/PtPrxCR/hero-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 600px;
+    /* min-height: 100vh; */
 }
 
 .hero-section h1 {
@@ -124,7 +129,7 @@ nav > i {
     background: url("https://i.ibb.co/fvRKf8g/section-img.png");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 600px;
 }
 
 .aboutUs-section {
@@ -140,10 +145,9 @@ nav > i {
 }
 
 .aboutUs-section h2 {
-    /* padding: 100px 0 30px 100px; */
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .aboutUs-section p {
@@ -154,7 +158,7 @@ nav > i {
 }
 
 .aboutUs-section button {
-    margin: 20px 0;
+    margin: 30px 0;
     background: #ff7d00;
     /* background: linear-gradient(90deg, #ff7d00 80%, #f6a458 10%); */
     padding: 15px 20px;
@@ -171,5 +175,64 @@ nav > i {
     margin-left: 5px;
 }
 
-
 /* END ABOUT-US SECTION */
+
+/* START CUISINE SECTION */
+.cuisine-container {
+    margin: 0 auto;
+    
+}
+
+.cuisine-container .cuisine-section {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.cuisine-section span {
+    display: inline-block;
+    color:rgba(255, 125, 0, 1);
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.cuisine-section h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.meals > ul {
+    list-style-type: none;
+    padding: 30px 0;
+    text-align: center;
+    margin-left: 340px;
+    /* outline: 1px solid red; */
+}
+
+.meals ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.meals ul li {
+    float: left;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.meal-images {
+    clear: both;
+    margin: 50px 20px;
+    /* width: 1000px; */
+}
+
+.meal-images img {
+    float: left;
+    height: 233px;
+    width: 185px;
+    gap: 20px;
+}
+
+
+
+/* END CUISINE SECTION */
