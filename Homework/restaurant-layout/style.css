@@ -8,6 +8,7 @@
 }
 /* START HEADER SECTION */
 .container {
+    max-width: 1240;
     background: linear-gradient(90deg, rgba(227, 238, 243, 1), rgba(242, 249, 249)); 
 }
 
@@ -79,6 +80,10 @@ nav > i {
     border-radius: 5px 0 0 5px;
 }
 
+.hero-section input::placeholder {
+    color: #d3d3d3;
+}
+
 .hero-section button {
     padding: 10px;
     background:rgba(255, 125, 0, 1);
@@ -113,3 +118,58 @@ nav > i {
 }
 
 /* END HERO SECTION */
+
+/* START ABOUT-US SECTION */
+.aboutUs-container { 
+    background: url("https://i.ibb.co/fvRKf8g/section-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.aboutUs-section {
+    padding: 100px 0 0 550px;
+    width: 85%;
+}
+
+.aboutUs-section span {
+    display: inline-block;
+    color:rgba(255, 125, 0, 1);
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.aboutUs-section h2 {
+    /* padding: 100px 0 30px 100px; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.aboutUs-section p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.aboutUs-section button {
+    margin: 20px 0;
+    background: #ff7d00;
+    /* background: linear-gradient(90deg, #ff7d00 80%, #f6a458 10%); */
+    padding: 15px 20px;
+    border: 1px solid #ff7d00;
+    border-radius: 6px;
+}
+
+.aboutUs-section button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.aboutUs-section button i {
+    margin-left: 5px;
+}
+
+
+/* END ABOUT-US SECTION */
