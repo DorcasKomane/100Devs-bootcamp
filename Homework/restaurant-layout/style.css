@@ -179,8 +179,7 @@ nav > i {
 
 /* START CUISINE SECTION */
 .cuisine-container {
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 .cuisine-container .cuisine-section {
@@ -240,6 +239,74 @@ nav > i {
     padding: 10px;
 }
 
-
-
 /* END CUISINE SECTION */
+
+/* START OPENING HOURS SECTION */
+
+.opening-hours-section {
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    outline: 1px solid red;
+}
+
+.opening-hours-section span {
+    display: inline-block;
+    color:rgba(255, 125, 0, 1);
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.opening-hours-section h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.opening-hours-section img {
+    margin: 30px 0 20px 0;
+}
+
+.opening-hours-section .call-text {
+    display: block;
+    /* color:rgba(255, 125, 0, 1); */
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+
+.opening-hours-section .phone-number {
+    color: #ff7d00;
+    font-size: 24px;
+    line-height: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.opening-hours-section .daily-hours {
+    margin: 20px 300px;
+}
+.opening-hours-container .hours-left {
+    float: left;
+}
+
+.hours-left p, .hours-right p {
+    text-align: left;
+    font-size: 14px;
+}
+
+.hours-left p + p, .hours-right p + p {
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.opening-hours-container .hours-right {
+    float: right;
+}
+
+.opening-hours-container .main-img {
+    clear: both;
+    width: 800px;
+}
+
+/* END OPENING HOURS SECTION */
