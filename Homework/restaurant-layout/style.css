@@ -29,15 +29,14 @@
 nav {
     height: 70px;
     padding: 20px 50px;
-    /* outline: 1px solid blue; */
 }
 
-.nav-list ul {
+.nav-list ul, .nav-mobile {
     list-style: none;
     padding-right: 20px;
 }
 
-.nav-list ul li {
+.nav-list ul li, .nav-mobile ul li {
     float: right;
     width: 100px;
     text-align: center;
@@ -46,9 +45,73 @@ nav {
 
 .nav-list ul li a {
     text-decoration: none;
-    color: #2d2d2d;
+    color: #000;
     font-size: 14px;
 }
+
+.nav-mobile li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav-mobile li a:hover {
+    color: #000;
+}
+
+.nav-mobile {
+    padding: 2rem;
+}
+
+.hamburger {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 35px;
+    height: 3px;
+    background: rgb(177, 196, 211);
+    margin: 6px 0;
+    transition: all 0.4s ease;
+}
+
+.open .line1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .line2 {
+    opacity: 0;
+}
+
+.open .line3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .nav-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-mobile {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    height: calc(100vh-7rem);
+    width: 50%;
+    background: #ecb079;
+}
+
+.nav-mobile li {
+    margin-bottom: 1.5rem;
+}
+
 
 nav > i {
     float: right;
@@ -56,6 +119,7 @@ nav > i {
     text-align: center;
     font-size: 20px;
 }
+
 
 /* END HEADER SECTION */
 
@@ -457,5 +521,18 @@ nav > i {
 
     .hero-container {
         background-position: center center;
+    }
+
+    nav {
+        padding: 20px;
+    } 
+
+    .nav-list {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding-left: 0;
     }
 }
