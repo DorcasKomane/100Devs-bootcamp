@@ -1,113 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <title>Restaurant</title>
-</head>
-<body>
-    <div class="wrapper">
-        <header>
-            <div class="container clear-fix">
-                <nav class="clear-fix">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <div class="nav-list">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>Restaurant</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="container clear-fix">
+                    <nav class="clear-fix">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="nav-list">
+                            <ul>
+                                <li><a href="#">Location</a></li>
+                                <li><a href="#">Blog</a></li>  
+                                <li><a href="#">Order Now</a></li> 
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Home</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="hero-container">
+                <section class="hero-section">
+                    <h1>Welcome <br>To Our Cuisine <br>Restaurant</h1>
+                    <input type="text" placeholder="Search here">
+                    <button type="submit"><a href="#">Location <i class="fa-solid fa-caret-down"></i></a></button>
+                    <div class="hero-social-icons">
+                        <i class="fa-brands fa-facebook-f"><span>252k</span></i>
+                        <i class="fa-brands fa-twitter"><span>62k</span></i>
+                        <i class="fa-brands fa-instagram"><span>55k</span></i>
+                    </div>
+                </section>
+            </div>
+            <div class="aboutUs-container">
+                <section class="aboutUs-section">
+                    <span>About Us</span>
+                    <h2>Discover Our Restaurant Story</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero tenetur quasi atque nesciunt, 
+                        dolores nostrum magnam quos officia nemo laboriosam est debitis necessitatibus repellendus minima! 
+                        Dolore cum fuga recusandae, nemo neque doloremque rerum dolor. Doloribus laborum obcaecati qui 
+                        saepe numquam.
+                    </p>
+
+                    <p>Consequatur totam quasi recusandae at explicabo, sunt voluptas quibusdam eos commodi soluta facere 
+                        architecto id. 
+                    </p>
+
+                    <button><a href="#">Discover Menu <i class="fa-solid fa-arrow-right"></i></a></button>
+                </section>
+            </div>
+            <div class="cuisine-container">
+                <section class="cuisine-section">
+                    <span>Order Online Now</span>
+                    <h2>Our Speciality Cuisine</h2>
+                    <div class="meals clear-fix">
                         <ul>
-                            <li><a href="#">Location</a></li>
-                            <li><a href="#">Blog</a></li>  
-                            <li><a href="#">Order Now</a></li> 
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Breakfast</a></li>
+                            <li><a href="#">Launch</a></li>
+                            <li><a href="#">Dinner</a></li>
+                            <li><a href="#">Dessert</a></li>
+                            <li><a href="#">Shake</a></li>
                         </ul>
                     </div>
-                </nav>
+                    <div class="meal-images clear-fix">
+                        <img src="https://i.ibb.co/9rbjqm3/img4.png" alt="img4" border="0">
+                        <img src="https://i.ibb.co/JrSQCnR/img5.png" alt="img5" border="0">
+                        <img src="https://i.ibb.co/MfjYpQM/img6.png" alt="img6" border="0">
+                        <img src="https://i.ibb.co/TLtpJZX/img7.png" alt="img7" border="0">
+                    </div>
+                    <div class="meal-images clear-fix">
+                        <img src="https://i.ibb.co/ckPzxkT/img3.png" alt="img3" border="0">
+                        <img src="https://i.ibb.co/S3pmnQ8/img1.png" alt="img1" border="0">
+                        <img src="https://i.ibb.co/XFr47NS/img2.png" alt="img2" border="0">
+                        <img src="https://i.ibb.co/ckPzxkT/img3.png" alt="img3" border="0">
+                    </div>
+                </section>
             </div>
-        </header>
-        <div class="hero-container">
-            <section class="hero-section">
-                <h1>Welcome <br>To Our Cuisine <br>Restaurant</h1>
-                <input type="text" placeholder="Search here">
-                <button type="submit"><a href="#">Location <i class="fa-solid fa-caret-down"></i></a></button>
-                <div class="hero-social-icons">
-                    <i class="fa-brands fa-facebook-f"><span>252k</span></i>
-                    <i class="fa-brands fa-twitter"><span>62k</span></i>
-                    <i class="fa-brands fa-instagram"><span>55k</span></i>
-                </div>
-            </section>
-        </div>
-        <div class="aboutUs-container">
-            <section class="aboutUs-section">
-                <span>About Us</span>
-                <h2>Discover Our Restaurant Story</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero tenetur quasi atque nesciunt, 
-                    dolores nostrum magnam quos officia nemo laboriosam est debitis necessitatibus repellendus minima! 
-                    Dolore cum fuga recusandae, nemo neque doloremque rerum dolor. Doloribus laborum obcaecati qui 
-                    saepe numquam.
-                </p>
-
-                <p>Consequatur totam quasi recusandae at explicabo, sunt voluptas quibusdam eos commodi soluta facere 
-                    architecto id. 
-                </p>
-
-                <button><a href="#">Discover Menu <i class="fa-solid fa-arrow-right"></i></a></button>
-            </section>
-        </div>
-        <div class="cuisine-container">
-            <section class="cuisine-section">
-                <span>Order Online Now</span>
-                <h2>Our Speciality Cuisine</h2>
-                <div class="meals clear-fix">
-                    <ul>
-                        <li><a href="#">Breakfast</a></li>
-                        <li><a href="#">Launch</a></li>
-                        <li><a href="#">Dinner</a></li>
-                        <li><a href="#">Dessert</a></li>
-                        <li><a href="#">Shake</a></li>
-                    </ul>
-                </div>
-                <div class="meal-images clear-fix">
-                    <img src="https://i.ibb.co/9rbjqm3/img4.png" alt="img4" border="0">
-                    <img src="https://i.ibb.co/JrSQCnR/img5.png" alt="img5" border="0">
-                    <img src="https://i.ibb.co/MfjYpQM/img6.png" alt="img6" border="0">
-                    <img src="https://i.ibb.co/TLtpJZX/img7.png" alt="img7" border="0">
-                </div>
-                <div class="meal-images clear-fix">
-                    <img src="https://i.ibb.co/ckPzxkT/img3.png" alt="img3" border="0">
-                    <img src="https://i.ibb.co/S3pmnQ8/img1.png" alt="img1" border="0">
-                    <img src="https://i.ibb.co/XFr47NS/img2.png" alt="img2" border="0">
-                    <img src="https://i.ibb.co/ckPzxkT/img3.png" alt="img3" border="0">
-                </div>
-            </section>
-        </div>
-        <div class="opening-hours-container">
-            <section class="opening-hours-section">
-                <span>Book Table</span>
-                <h2>Opening Hours</h2>
-                <img class="phone-icon" src="https://i.ibb.co/FDtQYMf/phone-icon.png" alt="phone-icon" border="0">
-                <p class="call-text">Call Now</p>
-                <p class="phone-number">+12345 678 910</p>
-                <div class="daily-hours">
-                    <div class="hours-left">
-                        <p>Monday to Tuesday</p>
-                        <p>09:00 am - 22:00 pm</p>
+            <div class="opening-hours-container">
+                <section class="opening-hours-section">
+                    <span>Book Table</span>
+                    <h2>Opening Hours</h2>
+                    <img class="phone-icon" src="https://i.ibb.co/FDtQYMf/phone-icon.png" alt="phone-icon" border="0">
+                    <p class="call-text">Call Now</p>
+                    <p class="phone-number">+12345 678 910</p>
+                    <div class="daily-hours">
+                        <div class="hours-left">
+                            <p>Monday to Tuesday</p>
+                            <p>09:00 am - 22:00 pm</p>
+                        </div>
+                        <div class="hours-right">
+                            <p>Monday to Tuesday</p>
+                            <p>09:00 am - 22:00 pm</p>
+                        </div>
                     </div>
-                    <div class="hours-right">
-                        <p>Monday to Tuesday</p>
-                        <p>09:00 am - 22:00 pm</p>
-                    </div>
-                </div>
-              
-                <img class="main-img" src="https://i.ibb.co/KqGFwkR/opening-hours.png" alt="opening-hours" border="0">
+                
+                    <img class="main-img" src="https://i.ibb.co/KqGFwkR/opening-hours.png" alt="opening-hours" border="0">
 
-            </section>
+                </section>
+            </div>
+            <div class="testimonials-container">
+                <section class="testimonials-section">
+                    <span>Testimonials</span>
+                    <h2>Customer Say</h2>
+                    <img src="https://i.ibb.co/d4q5P2V/img-customer.png" alt="img-customer" border="0">
+                    <p class="customer-name">Mr John Smith</p>
+                    <p class="title">Art Director</p>
+                    <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    <p class="testimonial-text">
+                        Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+                        Cuisine is a team work of Cuisine Restaurant Cafe, we aim at promoting the foodstuff industry through 
+                        the branches, we establish and through the new dishes.
+                    </p>
+                </section>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
