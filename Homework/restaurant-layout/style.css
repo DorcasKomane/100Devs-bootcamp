@@ -247,13 +247,12 @@ nav > i {
     /* background: url("https://i.ibb.co/HFSL1ns/joanna-kosinska-9-WNi3-OTzqt-I-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
-    margin: 0 20px;
+    margin: 0 auto;
 }
 
 .opening-hours-section {
     clear: both;
     text-align: center;
-    margin: 0 auto;
     padding: 100px 0;
 }
 
@@ -289,11 +288,13 @@ nav > i {
     font-weight: bold;
 }
 .opening-hours-section .daily-hours {
-    margin: 20px 100px;
+    margin: 20px 300px;
+    outline: 1px solid red;
 }
 .opening-hours-container .hours-left {
     float: left;
     width: 50%;
+    outline: 1px solid red;
 }
 
 .hours-left p, .hours-right p {
@@ -310,12 +311,14 @@ nav > i {
 .opening-hours-container .hours-right {
     float: right;
     width: 50%;
+    outline: 1px solid red;
 }
 
 .opening-hours-container .main-img {
     clear: both;
-    /* max-width: 800px; */
+    align-self: center;
     padding: 0 20px;
+    max-width: 100%;
 }
 
 /* END OPENING HOURS SECTION */
@@ -371,7 +374,31 @@ nav > i {
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 578px) {
+@media all and (max-width: 1024px){
+    .opening-hours-section .daily-hours {
+        margin: 20px 200px;
+    }
+}
+
+@media all and (max-width: 876px) {
+    .opening-hours-section .daily-hours {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .opening-hours-section .hours-left, .opening-hours-section .hours-right {
+        float: none;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .opening-hours-section .hours-right p, .opening-hours-section .hours-left p {
+        text-align: center;
+    }
+}
+@media all and (max-width: 768px) {
 
     .testimonials-section {
         width: 100%;
@@ -381,16 +408,5 @@ nav > i {
         width: 100%;
     }
 
-    .opening-hours-section .daily-hours {
-        margin: 0 20px;
-        text-align: center;
-    }
-
-    .hours-left, .hours-right {
-        float: none;
-        display: block;
-        width: 100%;
-        padding-top: 20px;
-        text-align: center;
-    }
+    
 }
