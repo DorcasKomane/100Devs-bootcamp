@@ -101,7 +101,7 @@ nav {
 .nav-mobile {
     display: none;
     position: absolute;
-    top: 4rem;
+    top: 4.3rem;
     left: 0;
     height: calc(100vh-7rem);
     width: 50%;
@@ -390,10 +390,11 @@ nav > i {
 /* END OPENING HOURS SECTION */
 
 /* START TESTIMONIALS SECTION */
-
+.testimonials-container {
+    margin: 0 auto;
+}
 .testimonials-section {
     text-align: center;
-    margin: 0 50px;
     padding: 100px 0;
 }
 
@@ -496,11 +497,6 @@ nav > i {
         text-align: center;
     }
 
-    /* .aboutUs-section button {
-        display: inline-block;
-        text-align: center;
-    } */
-
     .hero-section {
         width: 100%;
         padding: 0 20px;
@@ -535,4 +531,13 @@ nav > i {
         display: block;
         padding-left: 0;
     }
+
+    .cuisine-section {
+        width: 100%;
+    }
+
+    .meal-images img {
+        width: 50%;
+    }
+
 }
