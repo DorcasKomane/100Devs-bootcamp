@@ -129,6 +129,7 @@ nav > i {
     background: url("https://i.ibb.co/fvRKf8g/section-img.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     min-height: 600px;
 }
 
@@ -183,7 +184,7 @@ nav > i {
 }
 
 .cuisine-container .cuisine-section {
-    margin: 100px auto;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -202,21 +203,21 @@ nav > i {
 
 .meals > ul {
     list-style-type: none;
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: center;
-    margin-left: 340px;
+    /* margin-left: 340px; */
     /* outline: 1px solid red; */
-}
-
-.meals ul li a {
-    text-decoration: none;
-    color: #000;
 }
 
 .meals ul li {
     float: left;
     padding: 10px 30px;
     border-bottom: 1px solid #ebebeb;
+}
+
+.meals ul li a {
+    text-decoration: none;
+    color: #000;
 }
 
 .meals ul li:nth-child(1) {
@@ -226,8 +227,8 @@ nav > i {
 
 .meal-images {
     clear: both;
-    margin: 50px 20px 50px 250px;
-    /* width: 1000px; */
+    margin: 50px 20px;
+    max-width: 100%;
     /* outline: 1px solid red; */
 }
 
@@ -244,9 +245,6 @@ nav > i {
 /* START OPENING HOURS SECTION */
 
 .opening-hours-container {
-    /* background: url("https://i.ibb.co/HFSL1ns/joanna-kosinska-9-WNi3-OTzqt-I-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
     margin: 0 auto;
 }
 
@@ -275,7 +273,6 @@ nav > i {
 
 .opening-hours-section .call-text {
     display: block;
-    /* color:rgba(255, 125, 0, 1); */
     margin: 0 0 5px 0;
     font-size: 16px;
 }
@@ -289,12 +286,12 @@ nav > i {
 }
 .opening-hours-section .daily-hours {
     margin: 20px 300px;
-    outline: 1px solid red;
+    text-align: center;
 }
+
 .opening-hours-container .hours-left {
     float: left;
     width: 50%;
-    outline: 1px solid red;
 }
 
 .hours-left p, .hours-right p {
@@ -311,7 +308,6 @@ nav > i {
 .opening-hours-container .hours-right {
     float: right;
     width: 50%;
-    outline: 1px solid red;
 }
 
 .opening-hours-container .main-img {
@@ -327,7 +323,7 @@ nav > i {
 
 .testimonials-section {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 50px;
     padding: 100px 0;
 }
 
@@ -380,6 +376,13 @@ nav > i {
     }
 }
 
+@media all and (max-width: 968px) {
+    .aboutUs-section {
+        padding-left: 300px;
+    }
+}
+
+
 @media all and (max-width: 876px) {
     .opening-hours-section .daily-hours {
         margin: 0 auto;
@@ -403,10 +406,32 @@ nav > i {
     .testimonials-section {
         width: 100%;
         padding: 50px 20px;
+        text-align: center;
     }
     .testimonials-section .testimonial-text {
         width: 100%;
     }
 
+    .aboutUs-section {
+        padding: 100px 20px;
+        width: 100%;
+    }
+
+    .aboutUs-section h2 {
+        text-align: center;
+    }
     
+    .aboutUs-section span {
+        display: block;
+        text-align: center;
+    }
+
+    /* .aboutUs-section button {
+        display: inline-block;
+        text-align: center;
+    } */
+    
+    .aboutUs-container {
+
+    }
 }
