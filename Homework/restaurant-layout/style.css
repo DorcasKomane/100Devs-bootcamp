@@ -65,6 +65,7 @@ nav > i {
     background-image: url("https://i.ibb.co/PtPrxCR/hero-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-position: center center; */
     min-height: 600px;
     /* min-height: 100vh; */
 }
@@ -180,18 +181,20 @@ nav > i {
 
 /* START CUISINE SECTION */
 .cuisine-container {
-    margin: 0 auto; 
+    margin: 0 auto;
+    width: 100%; 
+    text-align: center;
 }
 
 .cuisine-container .cuisine-section {
     padding: 100px 0;
-    text-align: center;
+    display: inline-block;
 }
 
 .cuisine-section span {
     display: inline-block;
     color:rgba(255, 125, 0, 1);
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-size: 16px;
 }
 
@@ -205,6 +208,7 @@ nav > i {
     list-style-type: none;
     padding: 30px 20px;
     text-align: center;
+    display: inline-block;
     /* margin-left: 340px; */
     /* outline: 1px solid red; */
 }
@@ -285,8 +289,10 @@ nav > i {
     font-weight: bold;
 }
 .opening-hours-section .daily-hours {
-    margin: 20px 300px;
+    margin: 20px 150px;
     text-align: center;
+    /* display: inline-block; */
+    /* outline: 1px solid red; */
 }
 
 .opening-hours-container .hours-left {
@@ -430,8 +436,26 @@ nav > i {
         display: inline-block;
         text-align: center;
     } */
-    
-    .aboutUs-container {
 
+    .hero-section {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-section h1 {
+        padding: 100px 0 30px 0px;
+    }
+    
+    .hero-section input {
+        margin: 0;
+        /* width: 50%; */
+    }
+
+    .hero-social-icons {
+        padding: 30px 0 0 0px;
+    }
+
+    .hero-container {
+        background-position: center center;
     }
 }
