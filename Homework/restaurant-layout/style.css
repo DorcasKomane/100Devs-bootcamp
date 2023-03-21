@@ -247,6 +247,7 @@ nav > i {
     /* background: url("https://i.ibb.co/HFSL1ns/joanna-kosinska-9-WNi3-OTzqt-I-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover; */
+    margin: 0 20px;
 }
 
 .opening-hours-section {
@@ -288,10 +289,11 @@ nav > i {
     font-weight: bold;
 }
 .opening-hours-section .daily-hours {
-    margin: 20px 300px;
+    margin: 20px 100px;
 }
 .opening-hours-container .hours-left {
     float: left;
+    width: 50%;
 }
 
 .hours-left p, .hours-right p {
@@ -307,11 +309,13 @@ nav > i {
 
 .opening-hours-container .hours-right {
     float: right;
+    width: 50%;
 }
 
 .opening-hours-container .main-img {
     clear: both;
-    width: 800px;
+    /* max-width: 800px; */
+    padding: 0 20px;
 }
 
 /* END OPENING HOURS SECTION */
@@ -321,7 +325,7 @@ nav > i {
 .testimonials-section {
     text-align: center;
     margin: 0 auto;
-    padding: 100px 200px;
+    padding: 100px 0;
 }
 
 .testimonials-section span {
@@ -359,9 +363,34 @@ nav > i {
 
 .testimonials-section .testimonial-text {
     text-align: center;
-    width: 90%;
+    /* width: 90%; */
 }
 
-
-
 /* END TESTIMONIALS SECTION */    
+
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 578px) {
+
+    .testimonials-section {
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .testimonials-section .testimonial-text {
+        width: 100%;
+    }
+
+    .opening-hours-section .daily-hours {
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .hours-left, .hours-right {
+        float: none;
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
