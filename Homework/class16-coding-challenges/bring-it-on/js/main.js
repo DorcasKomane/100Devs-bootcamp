@@ -15,3 +15,11 @@
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+
+function loopWord(word, num){
+    for(let i = 0; i < num; i++){
+        console.log(word);
+    }
+}
+
+loopWord('joy', 5);
