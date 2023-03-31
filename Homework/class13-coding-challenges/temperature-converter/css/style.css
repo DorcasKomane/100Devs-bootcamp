@@ -1,0 +1,78 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container{
+  margin: 100px auto;
+  padding: 50px;
+  text-align: center;
+  /* background: #d9dcfa; */
+  max-width: 600px;
+}
+
+.main {
+  background: #e7e6e6;
+  height: 400px;
+  border: 1px solid #e7e6e6;
+  border-radius: 5px;
+  /* outline: 1px solid red; */
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+  padding: 70px 30px;
+}
+
+form {
+  margin: 40px 0;
+}
+
+input {
+  width: 80%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  outline: 1px solid #7a4be6;
+}
+
+input::placeholder {
+  color: #d3d3d3;
+}
+
+button {
+  padding: 10px 25px;
+  background: #7a4be6;
+  border: none;
+  /* border-radius: 5px; */
+  outline: none;
+  width: 40%;
+  color: #fff;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
