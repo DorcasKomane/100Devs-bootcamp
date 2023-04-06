@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 html {
     font-size: 62.5%;
+    background-color: #fff;
 }
-
-.page-container {
-    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #fff; */
 }
 
 header {
-    height: 4rem;
+    height: 5rem;
     font-size: 1rem;
     letter-spacing: .1rem;
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    align-items: center;
     padding: 2rem 5rem;
 }
 
@@ -26,7 +30,6 @@ header a {
 
 header span {
     display: inline-block;
-    padding-top: .8rem;
 }
 
 #logo {
@@ -46,6 +49,54 @@ nav ul li {
     padding-right: 20px;
 }
 
-/* nav ul li:nth-child(6) {
-    padding-right: 40px;
-} */
+/* START HERO SECTION */
+.hero-section{
+    min-height: 500px;
+    background-image: url("https://i.ibb.co/37r9J4v/img-hero-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text {
+    padding: 10rem 0 0 10rem;
+}
+
+h1 {
+    font-family: 'Forum', cursive;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 6.1rem;
+    letter-spacing: .2rem;
+    color: #fff;
+}
+
+.hero-text p {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: .05rem;
+    padding: 1.5rem 0 2rem 0;
+    color: #fff;
+}
+
+.button-black {
+    padding: 1rem 2.5rem;
+    background: #000;
+    border: 1px solid black;
+    color: #fff; 
+}
+
+.button.button-black a{
+   text-decoration: none;
+    color: #fff; 
+}
+
+.button-white {
+    background: #fff;
+}
+
+.button.button-white a {
+    text-decoration: none;
+    color: #000;
+}
+/* END HERO SECTION */
