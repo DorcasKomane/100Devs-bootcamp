@@ -28,7 +28,7 @@ header a {
     text-transform: uppercase;
 }
 
-header span {
+header span, header .button {
     display: inline-block;
 }
 
@@ -79,24 +79,80 @@ h1 {
     color: #fff;
 }
 
-.button-black {
+.button {
     padding: 1rem 2.5rem;
+    color: #fff; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.05rem;
+}
+
+.button-black {
     background: #000;
     border: 1px solid black;
-    color: #fff; 
 }
 
 .button.button-black a{
    text-decoration: none;
     color: #fff; 
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 .button-white {
     background: #fff;
+    border: 1px solid white;
 }
 
 .button.button-white a {
     text-decoration: none;
-    color: #000;
+    color: #373737;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
+
+/* .hero-mini-box {
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 30rem;
+    background: #000;
+    padding: 10rem 0 0 10rem;
+    margin: 10rem;
+    color: #fff;
+} */
 /* END HERO SECTION */
+
+/* START BENEFITS SECTION */
+    .hero-mini-box {
+        background: #000;
+        /* height: 6rem; */
+        padding: 3rem 2rem;
+        width: 20%;
+        margin: -7rem 0 2rem 10rem;
+    }
+
+    .hero-mini-box span, .hero-mini-box p {
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: .02rem;
+    }
+
+    .hero-mini-box span {
+        display: inline-block;
+        font-size: .8rem;
+        padding-bottom: 1rem;
+    }
+
+    .hero-mini-box p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding: 1rem 0;
+    }
+
+    .hero-mini-box p span {
+        font-size: 2rem;
+        font-weight: bold;
+    } 
+/* END BENEFITS SECTION */
