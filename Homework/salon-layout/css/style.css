@@ -205,4 +205,37 @@ h2 {
     line-height: 2.6rem;
 }
 
+.staff-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 15rem;
+    margin: 5rem 10rem;
+    /* outline: 1px solid red; */
+}
+
+.staff-container .staff-member {
+    padding: 1rem;
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-container .staff-member img {
+    max-width: 25rem; 
+    align-self: center;
+    /* outline: 1px solid green; */
+}
+
+.staff-container .staff-member .button {
+    margin: -2rem 0 0 0;
+    align-self: center;
+    font-size: 1rem;
+}
+
+.staff-member span {
+    display: inline-block;
+    font-size: 1.3rem;
+    padding-bottom: .5rem;
+}
 /* END VIDEO SECTION */
