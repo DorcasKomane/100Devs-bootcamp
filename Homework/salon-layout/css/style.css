@@ -12,6 +12,11 @@ html {
     /* background-color: #fff; */
 }
 
+.page-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 header {
     height: 5rem;
     font-size: 1rem;
@@ -112,7 +117,7 @@ h1 {
 
 /* END HERO SECTION */
 
-/* START BENEFITS SECTION */
+/* START MINI-BOX SECTION */
     .hero-mini-box {
         background: #000;
         padding: 3rem 2rem;
@@ -142,4 +147,29 @@ h1 {
         font-size: 2rem;
         font-weight: bold;
     } 
+
+/* END MINI-BOX SECTION */
+
+/* START BENEFITS SECTION */
+.benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 15rem;
+    /* outline: 1px solid red; */
+}
+
+.benefit {
+    text-align: center;
+    padding: 2rem;
+}
+
+.benefit h3 {
+    padding: 1rem;
+}
 /* END BENEFITS SECTION */
+
+/* START VIDEO SECTION */
+
+
+/* END VIDEO SECTION */
