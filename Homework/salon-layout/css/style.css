@@ -13,7 +13,7 @@ html {
 }
 
 .page-container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -239,3 +239,33 @@ h2 {
     padding-bottom: .5rem;
 }
 /* END VIDEO SECTION */
+
+/* START OFFER SECTION */
+.offer-section {
+    height: 30rem;
+    background-image: url("https://i.ibb.co/tPjbdjD/salon-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offer-text {
+    /* max-width: 25%; */
+    padding: 5rem 10rem;
+    /* outline: 1px solid red; */
+}
+
+.offer-text h3 {
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.offer-text p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 0 2rem 0;
+}
+
+.offer-text span {
+    font-weight: bold;
+}
+/* END OFFER SECTION */
