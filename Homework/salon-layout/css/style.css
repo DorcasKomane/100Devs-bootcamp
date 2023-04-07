@@ -170,6 +170,39 @@ h1 {
 /* END BENEFITS SECTION */
 
 /* START VIDEO SECTION */
+.vid-section {
+    background: rgba(241, 242, 245, 1);
+}
 
+.vid-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 15rem;
+}
+
+.vid-area img {
+    max-width: 30rem;
+}
+
+.vid-text {
+    padding: 0rem 4rem;
+    align-self: flex-start;
+}
+
+.vid-text p{
+    padding: 1rem 0 2rem 0;
+    font-size: 1.1rem;
+}
+
+.vid-area {
+    padding: 0rem 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 2.6rem;
+}
 
 /* END VIDEO SECTION */
