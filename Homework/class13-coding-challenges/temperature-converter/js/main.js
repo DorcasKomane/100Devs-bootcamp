@@ -7,7 +7,7 @@ document.querySelector('#convert').addEventListener('click', convert);
 
 function convert(){
     let temp = document.querySelector('#temperature').value;
-    let farhenheit = temp * 95 + 32;
+    let farhenheit = temp * 9/5 + 32;
     
     document.querySelector('#display').innerText = farhenheit;
 }
