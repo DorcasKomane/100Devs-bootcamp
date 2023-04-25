@@ -19,4 +19,23 @@ numbers.forEach((item)=>{
 });
 console.log(newArray);
 
-//Find the average of all the numbers from question three
+//Find the average of all the numbers from the previous challenge
+// let sum = 0;
+
+// for(let i = 0; i < numbers.length; i++){
+//     sum += numbers[i];
+// }
+
+// let average = sum / numbers.length;
+
+// console.log(average);
+
+let sum = 0;
+
+numbers.forEach((item) => {
+    sum += item;
+});
+
+let average = sum / numbers.length;
+
+console.log(average);
