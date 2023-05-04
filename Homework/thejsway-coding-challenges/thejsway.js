@@ -94,15 +94,35 @@
 //Program: Carousel
 
 //Version 1
-for(let i = 1; i <= 10; i++) {
-    console.log(i);
-}
+// for(let i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
 
 //Version 2
-let numberOfTurns = Number(prompt('Enter number of turns:'));
+// let numberOfTurns = Number(prompt('Enter number of turns:'));
 
-for(let i = 1; i <= numberOfTurns; i++) {
-    console.log(i);
+// for(let i = 1; i <= numberOfTurns; i++) {
+//     console.log(i);
+// }
+
+
+//Program: Parity
+
+//Version 1
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+      console.log(`${i} is even`);
+    }else{
+        console.log(`${i} is odd`);
+    }
+ }
+
+//Version 2
+let start = Number(prompt('Enter the initial number:'));
+for (let i = start; i < (start + 10); i++) {
+    if (i % 2 === 0) {
+      console.log(`${i} is even`);
+    }else{
+        console.log(`${i} is odd`);
+    }
 }
-
-
