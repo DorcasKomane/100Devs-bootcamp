@@ -143,15 +143,26 @@
 //Program: Input Validation
 
 //Version 1
-let number = '';
+// let number = '';
 
-while(number <= 100){
-    number = Number(prompt('Enter number:'));
-}
+// while(number <= 100){
+//     number = Number(prompt('Enter number:'));
+// }
 
-//Version 2
-//let number = '';
+// //Version 2
+// //let number = '';
 
-while(number < 50 || number > 100){
-    number = Number(prompt('Enter number:'));
-}
+// while(number < 50 || number > 100){
+//     number = Number(prompt('Enter number:'));
+// }
+
+//Program: Multiplication Table
+
+//Version 1
+// let number = Number(prompt('Enter number:'));
+
+// for(let i = 1; i <= number; i++){
+//     console.log(i * number);
+// }
+
+//Version 2 with While Loop
