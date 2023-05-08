@@ -68,7 +68,6 @@
 
 
 // //Program: Following Second
-
 // let hours = Number(prompt('Enter hours:'));
 // let minutes = Number(prompt('Enter minutes:'));
 // let seconds = Number(prompt('Enter seconds:'));
