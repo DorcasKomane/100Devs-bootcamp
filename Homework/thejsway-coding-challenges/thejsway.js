@@ -158,11 +158,28 @@
 
 //Program: Multiplication Table
 
-//Version 1
-// let number = Number(prompt('Enter number:'));
+//Version 1 with a For Loop
+//let number = Number(prompt('Enter number:'));
 
 // for(let i = 1; i <= number; i++){
 //     console.log(i * number);
 // }
 
-//Version 2 with While Loop
+//Version 2 with While Loop - I get an infinite loop
+// let number = Number(prompt('Enter number:'));
+// let i = 1;
+
+// while(i < number && number > 2 && number < 9){
+//     console.log(i * number);
+//     i++;
+// }
+
+
+//Program: Neither YES nor NO
+
+let text = prompt('Enter first text:');
+console.log(text);
+
+while(text !== 'yes' && text !== 'no'){
+    text = prompt('Enter another text:');
+}
