@@ -68,6 +68,7 @@
 
 
 // //Program: Following Second
+
 // let hours = Number(prompt('Enter hours:'));
 // let minutes = Number(prompt('Enter minutes:'));
 // let seconds = Number(prompt('Enter seconds:'));
@@ -177,9 +178,25 @@
 
 //Program: Neither YES nor NO
 
-let text = prompt('Enter first text:');
-console.log(text);
+// let text = prompt('Enter first text:');
+// console.log(text);
 
-while(text !== 'yes' && text !== 'no'){
-    text = prompt('Enter another text:');
-}
+// while(text !== 'yes' && text !== 'no'){
+//     text = prompt('Enter another text:');
+// }
+
+//Program: FizzBuzz
+
+// for(let i = 1; i <= 100; i++){
+//     if (i % 5 === 0 && i % 3 === 0){
+//         console.log('FizzBuzz');
+//     }else if(i % 5 === 0 && i % 3 !== 0){
+//         console.log('Buzz');
+//     }else if(i % 3 === 0){
+//         console.log('Fizz');
+//     }else{
+//         console.log(i);
+//     }
+// }
+
+  
